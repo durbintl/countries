@@ -1,5 +1,5 @@
 {
-    "name": "pragmarx/countries",
+    "name": "durbintl/countries",
 
     "description": "PHP Countries and Currencies",
 
@@ -23,6 +23,11 @@
             "name": "Antonio Carlos Ribeiro",
             "email": "acr@antoniocarlosribeiro.com",
             "role": "Creator"
+        },
+        {
+            "name": "Thomas L Durbin",
+            "email": "tdurbin@thomasldurbin.com",
+            "role": "Maintainer"
         }
     ],
 

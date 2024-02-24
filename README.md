@@ -2,10 +2,14 @@
     Countries
 </h1>
 
+<h2 align="center">
+This is a fork of the original package by pragmarx, which appears to be abandoned, but this is fixed to work with Laravel 10.
+</h2>
+
 ![World Map](docs/world-map-political-of-the-2013-nations-online-project-best.jpg)
 
 <p align="center">
-    <a href="https://packagist.org/packages/pragmarx/countries"><img alt="Latest Stable Version" src="https://img.shields.io/packagist/v/pragmarx/countries.svg?style=flat-square"></a>
+    <a href="https://packagist.org/packages/durbintl/countries"><img alt="Latest Stable Version" src="https://img.shields.io/packagist/v/durbintl/countries.svg?style=flat-square"></a>
     <a href="/antonioribeiro/countries/blob/master/LICENSE.md"><img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square"></a>
     <a href="https://scrutinizer-yaml.com/g/antonioribeiro/countries/?branch=master"><img alt="Code Quality" src="https://img.shields.io/scrutinizer/g/antonioribeiro/countries.svg?style=flat-square"></a>
     <a href="https://scrutinizer-yaml.com/g/antonioribeiro/countries/?branch=master"><img alt="Build" src="https://img.shields.io/scrutinizer/build/g/antonioribeiro/countries.svg?style=flat-square"></a>
@@ -13,7 +17,7 @@
 <p align="center">
     <a href="https://scrutinizer-yaml.com/g/antonioribeiro/countries/?branch=master"><img alt="Coverage" src="https://img.shields.io/scrutinizer/coverage/g/antonioribeiro/countries.svg?style=flat-square"></a>
     <a href="https://travis-ci.org/antonioribeiro/countries"><img alt="PHP" src="https://img.shields.io/badge/PHP-7.0%20%7C%207.1%20%7C%207.2%20%7C%207.3-green.svg?style=flat"></a>
-    <a href="https://packagist.org/packages/pragmarx/countries"><img alt="Downloads" src="https://img.shields.io/packagist/dt/pragmarx/countries.svg?style=flat-square"></a>
+    <a href="https://packagist.org/packages/durbintl/countries"><img alt="Downloads" src="https://img.shields.io/packagist/dt/durbintl/countries.svg?style=flat-square"></a>
     <a href="https://styleci.io/repos/74829244"><img alt="StyleCI" src="https://styleci.io/repos/74829244/shield"></a>
 </p>
 
@@ -50,7 +54,7 @@ Amongst many other information you'll be able to plot country maps:
 Use Composer to install it:
 
 ```
-composer require pragmarx/countries
+composer require durbintl/countries
 ```
 
 ## Instantiating
@@ -612,7 +616,7 @@ If you find something wrong with data, you, please, have to ask the package mana
 This package comes with the `update.php` script, which you MUST use to update the data files. It will download all info from all packages and automatically build the `.json` (and some others like `.svg` too). This is how you do it:
 
 ``` bash
-cd vendor/pragmarx/countries
+cd vendor/durbintl/countries
 composer install
 php update.php
 ```
